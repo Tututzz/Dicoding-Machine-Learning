@@ -22,6 +22,9 @@ Proyek ini mendapatkan skor **5/5** dalam penilaian.
 
 ## Hasil dan Evaluasi
 
+![image](https://github.com/user-attachments/assets/09a354ea-dade-4561-b127-42a2689a9291)
+
+
 ### Model Clustering
 Model akhir didapat menggunakan metode KMeans dengan **silhouette score** = 0.7607.
 
@@ -43,7 +46,7 @@ Model akhir didapat menggunakan metode KMeans dengan **silhouette score** = 0.76
 - **Rata-rata rating**: 3.24
 
 ### Insight dari hasil clustering:
-Beberapa pola menarik ditemukan dari hasil analisis dengan boxplot dan histogram:
+Beberapa pola menarik ditemukan dari hasil clustering:
 
 - Cluster 0 dan Cluster 2 memiliki persentase cocoa dan rating yang mirip. Namun, Cluster 2 memiliki lebih banyak bahan dibandingkan Cluster 0.
 - Cluster 1 memiliki persentase cocoa yang lebih rendah, lebih banyak bahan, dan rating yang lebih rendah dibandingkan cluster lainnya.
@@ -54,6 +57,9 @@ Selain itu, hampir semua coklat dalam dataset menggunakan bahan dasar B, S, dan 
 - 52% coklat batangan di Cluster 1 menggunakan **V (Vanilla)**
 
 Sedangkan Cluster 0 dan Cluster 2 hampir tidak menggunakan Lechitin ataupun Vanilla.
+- Cluster 0 : 0.0  persen coklat batangan memakai **V (Vanilla)** dan 0.127 persen coklat batangan memakai **L (Lechitin)**
+- Cluster 2 : 2.228 persen coklat batangan memakai **V (Vanilla)** dan 2.495 persen coklat batangan memakai **L (Lechitin)**
+
 
 ### Kesimpulan:
 Dari hasil ini dapat disimpulkan bahwa rating coklat dipengaruhi oleh persentase cocoa dan bahan tambahan dalam produk. Pada dataset ini, penggunaan Lechitin dan Vanilla mungkin menyebabkan rating menurun, meskipun dampaknya tidak terlalu signifikan.
