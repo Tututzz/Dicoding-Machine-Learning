@@ -2,14 +2,16 @@
 
 ## Deskripsi Proyek
 
-Proyek ini merupakan tugas akhir dari kelas Machine Learning di Dicoding. Dalam proyek ini, saya melakukan analisis data dengan metode *clustering* serta membangun model *classification* berdasarkan hasil klasterisasi yang telah dilakukan.
+Proyek ini merupakan tugas akhir dari kelas Machine Learning di Dicoding. Dalam proyek ini, saya melakukan analisis data dengan metode *clustering* serta membangun model *classification* berdasarkan hasil klasterisasi yang telah dilakukan. Dataset yang digunakan adalah dataset mengenai rating coklat batangan yang didapat dari Kaggle : https://www.kaggle.com/datasets/evangower/chocolate-bar-ratings
+
+
 
 Proses utama dalam proyek ini meliputi:
 
 1. **Pencarian Dataset** - Pemilihan dataset yang sesuai untuk diterapkan metode *clustering* dan *classification*.
-2. **Clustering** - Pengelompokan data menggunakan metode *unsupervised learning* dan membangun model clustering.
-3. **Classification** - Membangun model *supervised learning* untuk mengklasifikasikan hasil klasterisasi.
-4. **Evaluasi Model** - Melakukan evaluasi terhadap performa model untuk memastikan hasil yang optimal.
+3. **Clustering** - Pengelompokan data menggunakan metode *unsupervised learning* dan membangun model clustering.
+4. **Classification** - Membangun model *supervised learning* untuk mengklasifikasikan hasil klasterisasi.
+5. **Evaluasi Model** - Melakukan evaluasi terhadap performa model untuk memastikan hasil yang optimal.
 
 Proyek ini mendapatkan skor **5/5** dalam penilaian.
 
